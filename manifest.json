@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "Wikitree",
+  "version": "0.0.1",
+
+  "default_locale": "en",
+  "description": "Chrome extension that builds a tree of your Wikipedia browsing habits",
+
+  "author": "Zach Latta <zach@zachlatta.com>"
+}
