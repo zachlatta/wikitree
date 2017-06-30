@@ -2,8 +2,13 @@
   "name": "wikitree",
   "version": "1.0.0",
   "description": "Chrome extension that builds a DAG out of your Wikipedia browsing habits",
-  "main": "index.js",
   "repository": "https://github.com/zachlatta/wikitree",
   "author": "Zach Latta <zach@zachlatta.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.0.0"
+  },
+  "scripts": {
+    "start": "webpack"
+  }
 }
