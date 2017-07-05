@@ -5,6 +5,10 @@
   "author": "Zach Latta <zach@zachlatta.com>",
   "version": "0.0.1",
 
+  "permissions": [
+    "storage"
+  ],
+
   "content_scripts": [
     {
       "matches": [

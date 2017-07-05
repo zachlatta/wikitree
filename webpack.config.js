@@ -13,5 +13,10 @@ module.exports = {
     new CopyWebpackPlugin([
       { from: 'manifest.json' }
     ])
-  ]
+  ],
+  module: {
+    rules: [
+      { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' }
+    ]
+  }
 }
