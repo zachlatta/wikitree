@@ -6,6 +6,7 @@
   "author": "Zach Latta <zach@zachlatta.com>",
   "license": "MIT",
   "devDependencies": {
+    "copy-webpack-plugin": "^4.0.1",
     "webpack": "^3.0.0"
   },
   "scripts": {

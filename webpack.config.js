@@ -1,9 +1,17 @@
 var path = require('path')
+var CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
-  entry: './index.js',
+  entry: {
+    content: './content.js'
+  },
   output: {
-    filename: 'bundle.js',
+    filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist')
-  }
+  },
+  plugins: [
+    new CopyWebpackPlugin([
+      { from: 'manifest.json' }
+    ])
+  ]
 }
